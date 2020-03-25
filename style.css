@@ -1,4 +1,158 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+
+section{
+    height: 600px;
+    background-size: 100%;
+}
+
+
+/* ---------------Top Section--------------- */
+
+
+.top-banner{
+    background-image: url("img/header-bg.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.half-width{
+    width: 39%;
+    float: left;
+    margin: 0% 5%;
+}
+
+.top-text-div{
+    margin-top: 12%;
+}
+.top-text-div h2{
+    margin-bottom: 0px;
+}
+.top-text-div h1{
+    margin-top: 0px;
+}
+.top-text-div p{
+    margin-bottom: 7%;
+}
+
+p{
+    color: #707070;
+}
+h2{
+    color: #202428;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+h1{
+    color: #EC4C7A;
+    font-size: 48px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #E81F88, #EC4C7A );
+    padding: 2% 6%; 
+    border-radius: 5px;
+    font-size: 14px;
+}
+.top-img-div{
+    margin-top: 6%;
+}
+
+
+/* Biography */
+.bio-sec{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.bio-sec img{
+    margin-top: 3%;
+    width: 80%;
+}
+.bio-text-sec{
+    margin-top: 6%;
+}
+.bio-text-sec p{
+    margin-bottom: 7%;
+}
+
+/* Latest Work */
+#latest-work{
+    background-image: url("img/latest-work-bg.png");
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 10%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: 0px;
+}
+#latest-work h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.onethirs-width{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    
+}
+
+
+/* Client */
+#client-sec{
+    text-align: center;
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+
+h4{
+    font-size: 18px;
+    color: #202428;
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+    margin-top: 0px;
+}
+.clint-words{
+    font-size: 18px;
+    color: #202428;
+    margin-bottom: 5%;
+}
+.email-div{
+    background-image:  linear-gradient(45deg, #E81F88, #EC4C7A );
+    width: 45%;
+    margin: 0 auto;
+    padding: 35px 30px;
+    border-radius: 10px;
+    
+}
+.email-div p{
+    color: white;
+}
+
+#email-add{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+
 }
